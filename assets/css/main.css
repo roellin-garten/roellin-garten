@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'body';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('../fonts/AlegreyaSans-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'body';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url('../fonts/AlegreyaSans-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'brand';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/Freehand471BT-Regular.woff2') format('woff2');
+}
+
+@layer base {
+  html {
+    @apply text-gray-700;
+  }
+}
