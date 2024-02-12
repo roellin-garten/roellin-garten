@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as o,s as c}from"./entry.C0gpxlxT.js";const t={},_={class:"min-h-screen w-full"};function r(e,a){return n(),o("section",_,[c(e.$slots,"default")])}const f=s(t,[["render",r]]);export{f as _};
