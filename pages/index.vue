@@ -72,7 +72,7 @@
 
         <p class="text-base md:text-xl lg:text-2xl text-white mb-12">
           Als Chef ist es mir wichtig, persönlich bei Ihnen vorbei zu kommen. Qualität
-          liegt mir am Herzen und ich und mein Team verrichte meine Arbeit mit Leidenschaft.
+          liegt meinem Team und mir am Herzen und wir verrichten unsere Arbeit mit Leidenschaft.
           Gerne auch mal mit einem Spässchen.
         </p>
 
