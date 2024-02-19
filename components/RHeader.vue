@@ -7,7 +7,7 @@
         class="w-full h-auto transition-all duration-200 ease-in-out grow shrink"
         :class="{
           'max-w-[160px] sm:max-w-[250px]': !isCollapsed,
-          'max-w-[160px] sm:max-w-[120px]': isCollapsed,
+          'sm:max-w-[120px]': isCollapsed,
         }"
       >
     </nuxt-link>
@@ -21,7 +21,7 @@
         <li>
           <a href="tel:0041447222953">
             <RButton :small="isCollapsed">
-              <RIcon icon="phone" />
+              <font-awesome-icon icon="fa-solid fa-phone" />
               Unverbindlich anrufen
             </RButton>
           </a>
@@ -29,7 +29,7 @@
         <li>
           <a href="mailto:info@roellin-garten.ch">
             <RButton :small="isCollapsed">
-              <RIcon icon="envelope" />
+              <font-awesome-icon icon="fa-solid fa-envelope" />
               Kontakt via Email
             </RButton>
           </a>
