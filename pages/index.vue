@@ -3,9 +3,11 @@
     <div class="relative">
       <FullScreenSection class="relative lg:top-0 flex justify-center items-center overflow-hidden bg-brand-700">
         <RokkaImage
-          image="cc1d01374af7f5b6a9d7a0e010839bff3678d3b5.jpg"
+          v-for="(image, i) in randomImages"
+          :image="image"
           stack="hero"
           class="w-full h-full object-cover object-center absolute top-0 z-0 transition-all ease-in-out duration-700"
+          :class="currentlyVisibleImage === i ? 'opacity-1' : 'opacity-0'"
         />
       </FullScreenSection>
 
@@ -186,7 +188,7 @@ const images = [
 ]
 
 const randomImages = computed(() => {
-  return images.sort((a, b) => {
+  return images.sort(() => {
     return Math.random() > 0.5 ? 1 : -1
   })
 })
@@ -214,7 +216,6 @@ const currentlyVisibleImage = ref(0)
 onMounted(() => {
   interval = setInterval(() => {
     currentlyVisibleImage.value = (currentlyVisibleImage.value + 1) % images.length
-    console.log(currentlyVisibleImage.value)
   }, 8000)
 })
 

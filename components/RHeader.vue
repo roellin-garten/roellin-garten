@@ -6,7 +6,7 @@
         alt="Gartenunterhalt und Gartenpflege Beat Röllin Logo"
         class="w-full h-auto transition-all duration-200 ease-in-out grow shrink"
         :class="{
-          'max-w-[250px]': !isCollapsed,
+          'max-w-[160px] sm:max-w-[250px]': !isCollapsed,
           'sm:max-w-[120px]': isCollapsed,
         }"
       >
