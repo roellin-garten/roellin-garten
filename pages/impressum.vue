@@ -21,7 +21,7 @@
       </h3>
 
       <p class="mb-12">
-      Alle Inhalte &copy; {{ year }} Beat Röllin Gartenunterhalt und Gartenpflege
+        Alle Inhalte &copy; {{ year }} Beat Röllin Gartenunterhalt und Gartenpflege
       </p>
 
       <h3 class="font-brand text-brand-700 mb-6 text-xl lg:text-2xl">

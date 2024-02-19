@@ -11,10 +11,10 @@
     <div class="md:text-right p-10">
       <nav>
         <ul>
-          <li>
+          <li class="mb-2">
             <nuxt-link to="/impressum" class="border-b border-white hover:border-b-2 transition-all ease-in-out duration-100">Impressum</nuxt-link>
           </li>
-          <li>
+          <li class="mb-2">
             <nuxt-link to="/datenschutz" class="border-b border-white hover:border-b-2 transition-all ease-in-out duration-100">Datenschutz</nuxt-link>
           </li>
           <li>
