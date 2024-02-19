@@ -220,6 +220,7 @@ onMounted(() => {
   interval = setInterval(() => {
     currentlyVisibleImage.value = (currentlyVisibleImage.value + 1) % images.length
   }, 8000)
+  console.log('mounted')
 })
 
 onBeforeUnmount(() => {
