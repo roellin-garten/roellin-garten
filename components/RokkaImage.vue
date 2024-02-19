@@ -31,6 +31,9 @@ const stacks = {
   gallery_thumbnail: {
     'default': 'gallery_thumbnail',
   },
+  gallery_thumbnail_original_aspect: {
+    'default': 'gallery_thumbnail_original_aspect',
+  },
   gallery_large: {
     'default': 'gallery_large',
   },

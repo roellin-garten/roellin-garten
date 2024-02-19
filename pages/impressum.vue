@@ -25,6 +25,14 @@
       </p>
 
       <h3 class="font-brand text-brand-700 mb-6 text-xl lg:text-2xl">
+        Design & Entwicklung
+      </h3>
+
+      <p class="mb-12">
+        Pascal Thormeier, <a href="https://thormeier.dev" class="border-b border-brand-700 hover:border-b-2 transition-all ease-in-out duration-100">thormeier.dev</a>
+      </p>
+
+      <h3 class="font-brand text-brand-700 mb-6 text-xl lg:text-2xl">
         Haftungsausschluss
       </h3>
 
