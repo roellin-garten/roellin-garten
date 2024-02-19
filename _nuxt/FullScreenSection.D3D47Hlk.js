@@ -1,0 +1,1 @@
+import{_ as n,o,c as s,q as c}from"./entry.Dv1mNxW6.js";const t={},_={class:"min-h-screen w-full"};function r(e,a){return o(),s("section",_,[c(e.$slots,"default")])}const f=n(t,[["render",r]]);export{f as _};
