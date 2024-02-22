@@ -15,17 +15,17 @@
       </FullScreenSection>
 
       <div class="flex justify-center items-center md:min-h-screen lg:absolute lg:top-0 z-10 w-full">
-        <div class="md:backdrop-blur-lg w-full bg-white/50 p-12 lg:mt-40">
+        <div class="md:backdrop-blur-[15px] w-full bg-white/50 p-12 lg:mt-40">
           <h2 class="font-brand text-brand-700 text-3xl lg:text-5xl mb-8 md:mb-12">
             Willkommen bei Gartenunterhalt & Gartenpflege Beat Röllin
           </h2>
 
-          <p class="text-base md:text-xl lg:text-2xl text-brand-700 mb-8 md:mb-12">
+          <p class="text-base md:text-xl lg:text-2xl text-brand-700 mb-8 md:mb-12 md:font-bold">
             Seit {{ yearsSince }} Jahren sind wir Ihr Partner für Gartenunterhalt und Gartenpflege in und um Thalwil.
           </p>
 
-          <p class="text-base md:text-xl lg:text-2xl text-brand-700 mb-8 md:mb-12">
-            <strong>Möchten Sie eine Offerte? Nehmen Sie mit uns Kontakt auf!</strong>
+          <p class="text-base md:text-xl lg:text-2xl text-brand-700 mb-8 md:mb-12 font-bold">
+            Möchten Sie eine Offerte? Nehmen Sie mit uns Kontakt auf!
           </p>
 
           <ul class="flex flex-wrap gap-2 lg:gap-5">
@@ -158,7 +158,7 @@
 
     <div class="relative">
       <div class="flex justify-center items-center lg:min-h-screen lg:absolute lg:top-0 z-10 w-full">
-        <div class="md:backdrop-blur-lg w-full bg-white/50 p-12 lg:mt-40">
+        <div class="md:backdrop-blur-[15px] w-full bg-white/50 p-12 lg:mt-40">
           <h2 class="font-brand text-brand-700 text-3xl lg:text-5xl">
             Wir freuen uns darauf, auch bald Ihren Garten unterhalten und pflegen zu dürfen!
           </h2>

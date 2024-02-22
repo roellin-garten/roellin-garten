@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font-body">
     <RHeader />
 
     <main class="sm:mt-[160px]">

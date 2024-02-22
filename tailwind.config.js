@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -14,6 +16,9 @@ export default {
       default: ['"body"', 'sans-serif']
     },
     extend: {
+      fontFamily: {
+        sans: ['"body"', ...defaultTheme.fontFamily.sans]
+      },
       colors: {
         brand: {
           50: '#EDFDF7',
