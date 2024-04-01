@@ -2,7 +2,7 @@
   <header class="bg-white border-b border-brand-600 p-5 sticky sm:fixed top-0 w-full items-center grid grid-cols-[1fr_1fr] gap-2 z-20">
     <nuxt-link to="/">
       <img
-        src="../public/images/logo.jpg"
+        src="/images/logo.png"
         alt="Gartenunterhalt und Gartenpflege Beat Röllin Logo"
         class="w-full h-auto transition-all duration-200 ease-in-out grow shrink"
         :class="{
